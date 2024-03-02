@@ -1,0 +1,54 @@
+.titulo{
+    color: rgb(95, 28, 211);
+    text-align: center;
+}
+.tarjeta{
+    text-align: center;
+    color: rgb(247, 247, 247);
+   
+    display: inline-block;
+    border-radius: 10%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+header,footer{
+    background-color: rgb(151, 17, 192);
+    padding: 20px;
+    text-align: center;
+    color: azure;
+}
+section{
+    padding: 2%;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+table{
+    width: 100%;
+}
+caption{
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+table, th, td{
+    border: 1px solid  black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    text-align: left;
+}
+th{
+    color: brown;
+    background-color: blanchedalmond;
+}
+

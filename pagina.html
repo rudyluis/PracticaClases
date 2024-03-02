@@ -18,6 +18,28 @@
             padding: 10px;
             text-align: center;
         }
+        nav{
+            background-color: #eee;
+            padding: 10px;
+        }
+        main{
+            margin: 100px;
+            
+        }
+        article{
+            border: 1px;
+            color: white;
+
+        }
+        footer{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section{
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
@@ -28,18 +50,35 @@
         <ul>
             <!--<li><a href="">Seccion1</a><a href="">Seccion 2</a><a href="">Seccion 3</a></li>-->
             
-            <li><a href="">Seccion 1</a></li>
-            <li><a href="">Seccion 2</a></li>
-            <li><a href="">Seccion 3</a></li>
+            <li><a href="#seccion">Seccion 1</a></li>
+            <li><a href="#seccion2">Seccion 2</a></li>
+            <li><a href="#seccion3">Seccion 3</a></li>
         </ul>
     </nav>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section id="seccion" style="color:blue">
+            <h2>Seccion 1</h2>
+            <p>Contenido de la Seccion</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam doloremque placeat praesentium ad error sequi beatae explicabo. Nisi nobis saepe perspiciatis beatae ad eaque necessitatibus excepturi, culpa corrupti delectus!</p>
+            <a href="http://www.univalle.edu" target="_blank">Enlace a la Pagina Univalle</a>
+        </section>
+        <section id="seccion2" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <h2>Seccion 2 del Articulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero cumque delectus veniam doloremque quas minus consequuntur maxime explicabo laudantium totam alias ut, tempora a facere fuga distinctio voluptatem eligendi!</p>
+            <a href="http://www.youtube.com" target="_blank">Acceso a youtube</a>
+        </section>
+        <section id="seccion3">
+            <h3>Seccion del Articulo 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores doloribus, iure eligendi sapiente nam quam a molestiae soluta molestias cum non dolorem, tempora ex aliquid laborum! Voluptatum, distinctio quae?</p>
+            <a href="http://www.blizzard.com" target="_blank">Acceso a la Pagina de blizzard</a>
+        </section>
+        <article>
+            <h2>Articulo Principal</h2>
+            <p><a href="">Enlace a seccion 2</a></p>
+        </article>
     </main>
     <footer>
-        <p>Ejemplo de Html 2024 - Programacion web - Univalle</p>
+        <p>&copy; Ejemplo de Html 2024 Programacion web - Univalle </p>
     </footer>
 </body>
 </html>
